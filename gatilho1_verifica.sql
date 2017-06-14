@@ -1,0 +1,5 @@
+insert into Exame ( EID, duracao, Data, Password, boolInstantEnd) values ('bccb5ea3-63ab-41e7-9a12-c1b46528a7e6', 60, '25/05/2017', 'hR6WprGtY', 'FALSE');
+select * from Pergunta;
+insert into Pergunta (descricao, ID, cotacao ,EID) values ('Represente o número decimal -129 em complemento para 2 com 8 bits.', 'de829dff-62be-4e10-9638-b143e37d782b', 19, 'bccb5ea3-63ab-41e7-9a12-c1b46528a7e6');
+insert into Pergunta (descricao, ID, cotacao,EID) values ('A seguinte sequência de instruções está em memória a partir do endereço 0x00000014. bne $t0, $zero, segue; lw $t1, 0($a0); segue: add $t2, $t2, $t1 . Relativamente à instrução bne, determine o valor decimal dos sinais Read data 2 e entrada 1do Mux controlado por PCSrc. Estes valore são úteis para a execução da instrução?', 'b18324a2-8164-46ce-8695-ee400f2a99c2', 2.00, 'bccb5ea3-63ab-41e7-9a12-c1b46528a7e6');
+select * from Pergunta;
